@@ -3,11 +3,11 @@
 Get it from https://github.com/xparagon/SOUP
 > git clone https://github.com/xparagon/SOUP
 
-Follow the instructions at docsify:
+Follow the instructions to view  locally using docsify:
 > https://docsify.js.org/#/quickstart
 
 To view locally:
-> docsify init ./docs
+> docsify serve docs
 
     With access you may edit and push to git
 
