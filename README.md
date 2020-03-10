@@ -1,9 +1,9 @@
 # The SOUP repository
 
-Get it from https://github.com/xparagon/SOUP
+Get a copy to work on locally:
 > git clone https://github.com/xparagon/SOUP
 
-Follow the instructions to view  locally using docsify:
+Install **docsify**:
 > https://docsify.js.org/#/quickstart
 
 To view locally:
