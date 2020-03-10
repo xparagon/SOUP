@@ -1,6 +1,6 @@
 # About us
 
-This page is developed with the help from:
+This guidebook is created by:
 - Fred Pallesen
 - Lohita Pallanti 
 
@@ -12,12 +12,3 @@ We need it!
 
 Please use our git repository and add issues and pull requests.
 
-### Suggest
-
-### Review
-
-### Contribute
-
-#### With code
-
-#### With checklist

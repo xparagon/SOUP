@@ -1,0 +1,30 @@
+.markdown-section h1 {
+  font-size: 3rem;
+}
+
+.sidebar {    
+    padding-left: 20px;
+  }
+  .sidebar ul li a:hover {
+    border-bottom: 3px solid #42b983;
+  }
+  .sidebar ul li a {
+    border-bottom: 3px solid transparent;
+    text-decoration: none !important;
+    font-size: 2.0em;
+    margin-top: 0;
+    padding-bottom: 0.1em;
+    margin-bottom: 1.5em;
+  }
+  .sidebar ul > ul li a {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.1em;
+    margin-bottom: 0;
+  }
+  .sidebar ul > ul > ul li a {
+    font-size: 1em;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
