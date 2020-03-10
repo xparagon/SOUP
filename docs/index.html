@@ -7,13 +7,29 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    .sidebar {
+      padding-left: 20px;
+    }
+    .sidebar ul li a {
+      font-size: 2.0em;
+    }
+    .sidebar ul > ul li a {
+      font-size: 1.5em;
+    }
+    .sidebar ul > ul > ul li a {
+      font-size: 1em;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'SOUP',
+      repo: 'https://github.com/xparagon/SOUP',
+      loadNavbar: true,
+      logo: '/soup.png',
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
