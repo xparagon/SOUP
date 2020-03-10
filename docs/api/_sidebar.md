@@ -1,1 +1,0 @@
-* [Home](/ "The SOUP way")
