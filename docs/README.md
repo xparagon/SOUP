@@ -5,7 +5,7 @@
 As web programmers we love tools, and frameworks, and protocols? standards? principles? and work methods?<br>
 Well - if it was all presented in a simple way and easily available - that would help! 
 
-?> And that is the goal of **SOAP**: To make the day of a programmer easier and more efficient.
+?> And that is the goal of **SOUP**: To make the day of a programmer easier and more efficient.
 
 No guide can help for all development cases, so we have limited this to development of:
 - [x] **Progressive Web Applications ([PWA's](https://web.dev/progressive-web-apps/))**
