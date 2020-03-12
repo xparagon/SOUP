@@ -3,6 +3,7 @@
 This guidebook is created by:
 - Fred Pallesen
 - Lohita Pallanti 
+- and you?
 
 ## Why we made this
 
