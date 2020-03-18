@@ -75,12 +75,12 @@ Using www.plantuml.com/plantuml (see [guide.pdf](http://plantuml.com/guide))
 ```text
 @startuml
 left to right direction
-You --> (Docsify)
+You --> (Docsify) : will love
 @enduml
 ```
 ```plantuml
 @startuml
 left to right direction
-You --> (Docsify)
+You --> (Docsify) : will love
 @enduml
 ```
