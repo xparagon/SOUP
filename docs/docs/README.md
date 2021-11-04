@@ -84,3 +84,24 @@ left to right direction
 You --> (Docsify) : will love
 @enduml
 ```
+
+## TypeDoc
+
+All typescript functions should be documented using TypeDoc
+
+> install from https://typedoc.org/
+
+Add symbols in comments:
+```
+/**
+ * This comment _supports_ [Markdown](https://marked.js.org/)
+ */
+```
+
+Symbols like:
+```
+/**
+ * @param text  Comment for parameter ´text´.
+ * @returns Comment for special return value.
+ */
+```
