@@ -13,3 +13,6 @@ To view locally:
 
 To view on Github Pages:
 > https://xparagon.github.io/SOUP
+
+To edit in your browser
+> https://vscode.dev/
