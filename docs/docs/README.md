@@ -58,7 +58,7 @@ yaml:
   - slim and flexible
   - better for configuration
 object:
-	key: value
+   key: value
 paragraph: >
    Blank lines denote
 
