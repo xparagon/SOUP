@@ -1,15 +1,13 @@
-# About us
+# About me
 
 This guidebook is created by:
 - Fred Pallesen
-- Lohita Pallanti 
-- and you?
 
-## Why we made this
+## Why I made this
 
-We need it!
+I need it!
 
 ## How to help us
 
-Please use our git repository and add issues and pull requests.
+Please use this git repository and add issues and pull requests.
 
