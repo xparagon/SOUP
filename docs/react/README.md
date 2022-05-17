@@ -20,7 +20,7 @@ function ComponentName({name, count}: ComponentProps) {
 
 ## Hooks
 ``` ts
-// state
+// states
 const [count, setCount] = useState(0);
 
 // effect
@@ -39,6 +39,7 @@ const memoizedCallback = useCallback(
     [a, b],
 );
 
+// memo
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 
 ```
