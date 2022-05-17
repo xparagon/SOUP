@@ -1,4 +1,5 @@
 * [Home](/ "The SOUP way")
+* [/react](/react/ "React notes")
 * [/api](/api/ "How to talk to each other")
 * [/css](/css/ "Use of CSS")
 * [/docs](/docs/ "How to document")
