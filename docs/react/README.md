@@ -1,4 +1,4 @@
-# React Developer Notes
+# React Notes
 
 https://reactjs.org/
 
@@ -18,7 +18,7 @@ function ComponentName({name, count}: ComponentProps) {
 }
 ```
 
-## Hooks
+## Hooks most used
 ``` ts
 // states
 const [count, setCount] = useState(0);
