@@ -38,8 +38,3 @@ If we can agree everything is easier!
 
 It is web-development from A to Z.
 
-    Edited using vscode.dev
-
-## From GitHub to vscode
-
-At this repository - all I did was press "." and github opened a  workspace in vscode.

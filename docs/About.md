@@ -7,7 +7,7 @@ This guidebook is created by:
 
 I need it!
 
-## How to help us
+## How to help me
 
-Please use this git repository and add issues and pull requests.
+Add issues and pull requests.
 
