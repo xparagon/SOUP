@@ -41,7 +41,7 @@ useEffect(() => {
 const id = useId();
 
 ```
-## Returns a memoized callback.
+## Mmemoized callback.
 ``` ts
 
 // callback
