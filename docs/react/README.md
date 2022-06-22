@@ -41,6 +41,26 @@ useEffect(() => {
 const id = useId();
 
 ```
+The built-in Hooks:
+
+useState
+useEffect
+useContext<br/>
+useReducer
+useCallback
+useMemo
+useRef
+useImperativeHandle
+useLayoutEffect
+useDebugValue
+useDeferredValue
+useTransition
+useId<br />
+useSyncExternalStore
+useInsertionEffect
+
+*See more hooks under 'Hooks libs'*
+
 ### Memoized
 ``` ts
 
