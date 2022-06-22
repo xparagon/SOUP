@@ -23,7 +23,7 @@ export default ComponentName;
 You may now use this as a \<ComponentName name={nameVar} count={+0} /\>
 
 
-## Hooks most used
+## Hooks
 ``` ts
 // states
 const [count, setCount] = useState(0);
@@ -41,7 +41,7 @@ useEffect(() => {
 const id = useId();
 
 ```
-## Memoized callback.
+### Memoized
 ``` ts
 
 // callback
@@ -60,7 +60,7 @@ See 'Custom Hooks' below for an example of useCallback.<br />
 Only recompute the memoized value when one of the dependencies has changed.<br/>
 This optimization helps to avoid expensive calculations on every render.
 
-## Custom Hooks
+### Custom
 A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks.<br />
 (This is the first hook from https://usehooks.com/)
 ``` ts
