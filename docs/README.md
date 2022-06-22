@@ -8,17 +8,17 @@
 
 ## Simple
 
-If it ain't simple - it will not be used!
+If it ain't simple - it ain't useful!
 
 ## Open
 
-This is for all that find it useful. 
+It is for all that finds it useful. 
 
 ## Unified
 
-If we can agree everything is easier!
+Opinionated is better than "anything that works is OK" - it is not!
 
 ## Process
 
-It is web-development from A to Z.
+Improvements is a struggle - a never ending process.
 
