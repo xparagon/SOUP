@@ -63,7 +63,6 @@ useInsertionEffect
 
 ### Memoized
 ``` ts
-
 // callback
 const memoizedCallback = useCallback(
     () => {
@@ -135,3 +134,6 @@ const handleChange = (event: React.ChangeEvent<{ value: string }>) => {
 />
 
 ``` 
+See more about events here:
+- https://reactjs.org/docs/events.html
+- https://reactjs.org/docs/handling-events.html
