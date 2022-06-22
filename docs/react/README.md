@@ -2,6 +2,7 @@
 
 - [ReactJS](https://reactjs.org/)
 - [hooks-reference](https://reactjs.org/docs/hooks-reference.html)
+- [Create React App](https://create-react-app.dev/)
 
 ## Component template
 ``` ts
