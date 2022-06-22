@@ -54,13 +54,14 @@ const memoizedCallback = useCallback(
 
 // memo
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
-// Only recompute the memoized value when one of the dependencies has changed. 
-// This optimization helps to avoid expensive calculations on every render.
 
 ```
+See 'Custom Hooks' below for an example of useCallback.<br />
+Only recompute the memoized value when one of the dependencies has changed.<br/>
+This optimization helps to avoid expensive calculations on every render.
 
 ## Custom Hooks
-A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks.
+A custom Hook is a JavaScript function whose name starts with ”use” and that may call other Hooks.<br />
 (This is the first hook from https://usehooks.com/)
 ``` ts
 import { useCallback, useState } from 'react';
@@ -87,7 +88,30 @@ const useToggle = (initialState = false) => {
 }
 ```
 
-**Nice hooks:**
+### Hooks libs
 - https://usehooks.com/
 - https://github.com/rehooks/awesome-react-hooks 
 - https://react-hooks.org/
+
+## Event bubbling
+
+``` ts
+// props for component    
+export interface Props {
+    onSelect(id: number): void;
+}
+
+function BubblingComponentName({onSelect}: Props) { ... }
+
+// function inside component calling onSelect
+const handleChange = (event: React.ChangeEvent<{ value: string }>) => {
+  onSelect(+(event.target.value)); 
+};
+
+// trigger the change
+<input 
+  type='number'
+  onChange={((e: React.ChangeEvent<{ value: string }>) => handleChange(e))}     
+/>
+
+``` 
