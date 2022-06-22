@@ -4,6 +4,8 @@
 - [hooks-reference](https://reactjs.org/docs/hooks-reference.html)
 - [Create React App](https://create-react-app.dev/)
 
+- [axios](https://axios-http.com/)
+
 ## Component template
 ``` ts
 import React from 'react';
