@@ -1,7 +1,7 @@
 # React Notes
 
-- https://reactjs.org/
-- https://reactjs.org/docs/hooks-reference.html
+- [ReactJS](https://reactjs.org/)
+- [hooks-reference](https://reactjs.org/docs/hooks-reference.html)
 
 ## Component template
 ``` ts
@@ -20,7 +20,8 @@ function ComponentName({name, count}: ComponentProps) {
 export default ComponentName;
 ```
 
-You may now use this as a \<ComponentName name={nameVar} count={+0} /\>
+You may now use this as a \<ComponentName name={nameVar} count={+0} /\><br />
+Look under [Event bubbling](#event-bubbling) for how to add events to the Props.
 
 
 ## Hooks
@@ -59,7 +60,7 @@ useId<br />
 useSyncExternalStore
 useInsertionEffect
 
-*See more hooks under 'Hooks libs'*
+*See more hooks under ['Hooks libs'](#hooks-libs)*
 
 ### Memoized
 ``` ts
@@ -135,5 +136,5 @@ const handleChange = (event: React.ChangeEvent<{ value: string }>) => {
 
 ``` 
 See more about events here:
-- https://reactjs.org/docs/events.html
-- https://reactjs.org/docs/handling-events.html
+- [events](https://reactjs.org/docs/events.html)
+- [handling-events](https://reactjs.org/docs/handling-events.html)
