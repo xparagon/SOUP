@@ -141,3 +141,9 @@ const handleChange = (event: React.ChangeEvent<{ value: string }>) => {
 See more about events here:
 - [events](https://reactjs.org/docs/events.html)
 - [handling-events](https://reactjs.org/docs/handling-events.html)
+
+# Plans to document
+
+- slots like in Vue
+- async/await
+- service worker
