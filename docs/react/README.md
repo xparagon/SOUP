@@ -142,7 +142,9 @@ See more about events here:
 - [events](https://reactjs.org/docs/events.html)
 - [handling-events](https://reactjs.org/docs/handling-events.html)
 
-# Plans to document
+# ToDo
+
+I plan do document this:
 
 - slots like in Vue
 - async/await
