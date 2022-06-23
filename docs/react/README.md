@@ -151,6 +151,7 @@ I plan do document this:
 - [styled-components](https://www.npmjs.com/package/styled-components)
 - slots like in Vue, see [composition]()https://reactjs.org/docs/composition-vs-inheritance.html
 - async/await, Promise
+- storybook, styleguideist
 - web workers
 - webpack, vite
 - micro frontend
