@@ -148,10 +148,11 @@ See more about events here:
 
 I plan do document this:
 
+- [mui](https://mui.com/), [eds](https://eds.equinor.com/)
 - [styled-components](https://www.npmjs.com/package/styled-components)
-- slots like in Vue, see [composition]()https://reactjs.org/docs/composition-vs-inheritance.html
+- slots like in Vue, see [composition](https://reactjs.org/docs/composition-vs-inheritance.html)
 - async/await, Promise
-- storybook, styleguideist
+- [storybook](https://storybook.js.org/), [styleguideist](https://react-styleguidist.js.org/)
 - web workers
 - webpack, vite
 - micro frontend
