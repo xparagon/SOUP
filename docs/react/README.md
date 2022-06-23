@@ -6,7 +6,7 @@
 
 - [axios](https://axios-http.com/)
 
-## Component template
+## Components
 ``` ts
 import React from 'react';
 
@@ -25,6 +25,8 @@ export default ComponentName;
 
 You may now use this as a \<ComponentName name={nameVar} count={+0} /\><br />
 Look under [Event bubbling](#event-bubbling) for how to add events to the Props.
+
+*More about [components and props](https://reactjs.org/docs/components-and-props.html)*
 
 
 ## Hooks
