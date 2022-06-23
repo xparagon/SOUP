@@ -146,6 +146,9 @@ See more about events here:
 
 I plan do document this:
 
+- [styled-components](https://www.npmjs.com/package/styled-components)
 - slots like in Vue
-- async/await
-- service worker
+- async/await, Promise
+- web workers
+- webpack, vite
+- micro frontend
