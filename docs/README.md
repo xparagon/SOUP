@@ -5,6 +5,7 @@
  
 \- That is the goal of **SOUP**: To make *my* day as a programmer easier and more efficient.
 
+Now with some notes about [react](./docs) and how to write [documentation](./docs). 
 
 ## Simple
 
