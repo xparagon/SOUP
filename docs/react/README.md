@@ -67,6 +67,28 @@ useInsertionEffect
 
 *See more hooks under ['Hooks libs'](#hooks-libs)*
 
+
+### Callback
+Read this about [callbacks-refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
+``` ts
+function MeasureExample() {
+  const [height, setHeight] = React.useState(0)
+
+  const measuredRef = React.useCallback(node => {
+    if (node !== null) {
+      setHeight(node.getBoundingClientRect().height)
+    }
+  }, [])
+
+  return (
+    <>
+      <h1 ref={measuredRef}>Hello, world</h1>
+      <h2>The above header is {Math.round(height)}px tall</h2>
+    </>
+  )
+}
+```
+
 ### Memoized
 ``` ts
 // callback
