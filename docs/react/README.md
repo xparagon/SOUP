@@ -202,6 +202,46 @@ Then this is some code to handle the input:
 ```
 
 
+## Handle api calls
+A button handle call could be:
+``` ts
+  async function handleTaxPercentage() {
+    setLoading(true);
+    const result = await fetchProdRating(prodNo);
+    setLoading(false);
+    setProdRating(result);
+  }
+```
+When the api to call the endpoint returns a Promise
+``` ts
+  function fetchProdRating(prodNo: number): Promise<number> {
+    return new Promise(resolve => {
+      fetch('https://dummyjson.com/products/'+prodNo)
+        .then(res => {
+          if (res.ok) {
+            return res.json();
+          } else {
+            console.error(res.statusText);
+            return {rating: -1}; // return default
+          }
+        })
+        .then(data => {
+          console.log( data.rating);
+          resolve(data.rating);
+        })
+        .catch(error => {
+          console.error(error);
+          resolve(-1);
+        });
+    });
+  }
+```
+Note that the return should include information about an error. 
+In this case it is just indicated with a -1.
+
+Also, note that fetch has two 'then' step, so you have pass on or throw and catch an error!
+
+
 # ToDo
 
 I plan do document this:
