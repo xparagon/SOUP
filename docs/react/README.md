@@ -203,9 +203,12 @@ Then this is some code to handle the input:
 
 
 ## Handle api calls
-A button handle call could be:
+A button's _handle_ call could be:
 ``` ts
-  async function handleTaxPercentage() {
+  const [prodNo, setProdNo] = useState(0); // 0 is no prodNo given
+  const [prodRating, setProdRating] = useState(-1); // -1 is error or no rating
+
+  async function handleProdRating() {
     setLoading(true);
     const result = await fetchProdRating(prodNo);
     setLoading(false);
