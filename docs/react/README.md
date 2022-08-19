@@ -166,6 +166,42 @@ See more about events here:
 - [events](https://reactjs.org/docs/events.html)
 - [handling-events](https://reactjs.org/docs/handling-events.html)
 
+## Input validation
+Given this HTML
+``` html
+<div>
+  <label>Input: </label>
+  <input type="number" min={0} max={100} value={num} onChange={handleNumInput} />
+  <label> Output: </label>&rarr;&nbsp;{num}
+</div
+```
+Then this is some code to handle the input:
+
+``` ts
+  const [num, setNum] = useState(0);
+  /**
+   * NOTE:
+   * When used by <input type="number" min={0} max={100} ... />
+   * You can not enter values outside of the range nor use the up/down icons
+   * to add a number outside of the range.
+   * BUT you could PASTE an invalid value.
+   * The validation in this handle code disables that misbehavior.
+   */
+  function handleNumInput(event: React.ChangeEvent<{ value: string }>) {
+    const value = (event.target.value);
+    if (value) {
+      // validate
+      const v = Number.parseInt(value);
+      if (v<0 || v>100) {
+        console.error('value outside of range :', value);
+      } else {
+        setNum(v);
+      }
+    }
+  }
+```
+
+
 # ToDo
 
 I plan do document this:
