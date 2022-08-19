@@ -246,7 +246,7 @@ Also, note that fetch has two 'then' step, so you have pass on or throw and catc
 
 # ToDo
 
-I plan do document this:
+I plan to document this:
 
 - [mui](https://mui.com/), [eds](https://eds.equinor.com/)
 - [styled-components](https://www.npmjs.com/package/styled-components)
