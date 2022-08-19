@@ -221,8 +221,7 @@ When the api to call the endpoint returns a Promise
           if (res.ok) {
             return res.json();
           } else {
-            console.error(res.statusText);
-            return {rating: -1}; // return default
+            throw new Error(res.statusText);
           }
         })
         .then(data => {
