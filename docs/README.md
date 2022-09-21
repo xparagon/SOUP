@@ -26,7 +26,9 @@ I have created 3 starter project to test react, vue and svelte:
 yarn create vite hello-svelte-ts --template svelte-ts<br />
 yarn create vite hello-vue-ts --template vue-ts
 
-And I have created one repro to test out storybook
+## Storybook
+
+I have also created a starter repro to test out storybook, with the hope to create a component library and a design system:
 
 > https://github.com/xparagon/xp-dscl
 
