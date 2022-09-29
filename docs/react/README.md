@@ -68,6 +68,30 @@ useInsertionEffect
 *See more hooks under ['Hooks libs'](#hooks-libs)*
 
 
+### Fetch Data
+How to use async functions in useEffect
+
+``` ts
+useEffect(() => {
+  // declare the async data fetching function
+  const fetchData = async () => {
+    // get the data from the api
+    const data = await fetch('https://yourapi.com');
+    // convert the data to json
+    const json = await response.json();
+
+    // set state with the result
+    setData(json);
+  }
+
+  // call the function
+  fetchData()
+    // make sure to catch any error
+    .catch(console.error);;
+}, [])
+```
+More about calling async functions in useEffect from [devtrium](https://devtrium.com/posts/async-functions-useeffec)
+
 ### Callback
 Read this about [callbacks-refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
 ``` ts
