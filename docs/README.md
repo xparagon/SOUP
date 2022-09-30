@@ -34,12 +34,12 @@ I have also created a starter repro to test out storybook, with the hope to crea
 
 ## Roadmap?
 
-* login
-* router
-* api calls
-* components
-* forms
-* tables
-* service workers
-* micro-framework
+* login - getting in to the web app
+* router - navigating around in the app
+* api calls - getting data and updating
+* components - building blocks
+* forms - input validation
+* tables - with sorting, filtering, pagination, ...
+* service workers - running in separate threads
+* micro-framework - combining multiple web-apps
 
