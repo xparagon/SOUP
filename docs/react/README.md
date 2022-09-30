@@ -90,7 +90,7 @@ useEffect(() => {
     .catch(console.error);;
 }, [])
 ```
-More about calling async functions in useEffect from [devtrium](https://devtrium.com/posts/async-functions-useeffec)
+More about calling async functions in useEffect from [devtrium](https://devtrium.com/posts/async-functions-useeffect)
 
 ### Callback
 Read this about [callbacks-refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
@@ -177,7 +177,6 @@ function BubblingComponentName({onSelect}: Props) { ... }
 // function inside component calling onSelect
 const handleChange = (event: React.ChangeEvent<{ value: string }>) => {
   onSelect(+(event.target.value)); 
-};
 
 // trigger the change
 <input 
