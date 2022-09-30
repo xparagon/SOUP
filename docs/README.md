@@ -32,3 +32,14 @@ I have also created a starter repro to test out storybook, with the hope to crea
 
 > https://github.com/xparagon/xp-dscl
 
+## Roadmap?
+
+* login
+* router
+* api calls
+* components
+* forms
+* tables
+* service workers
+* micro-framework
+
