@@ -91,7 +91,6 @@ useEffect(() => {
 }, [])
 ```
 More about calling async functions in useEffect from [devtrium](https://devtrium.com/posts/async-functions-useeffect)<br />
-Also read: [Why useEffect is a bad place to make API calls](https://medium.com/wesionary-team/why-useeffect-is-a-bad-place-to-make-api-calls-98a606735c1c)
 
 ### Callback
 Read this about [callbacks-refs](https://tkdodo.eu/blog/avoiding-use-effect-with-callback-refs)
