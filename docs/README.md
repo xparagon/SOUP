@@ -43,7 +43,7 @@ I have also created a starter repro to test out storybook, with the hope to crea
 * service workers - running in separate threads
 * micro-framework - combining multiple web-apps
 
-## Tools to master:
+## Tools you should know:
 
 * [git](https://git-scm.com/)
 * [GitHub](https://github.com/)
